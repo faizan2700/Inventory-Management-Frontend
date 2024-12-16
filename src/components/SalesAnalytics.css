@@ -1,0 +1,56 @@
+.sales-analytics {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sales-analytics h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sales-analytics-section {
+    margin-bottom: 30px;
+  }
+  
+  .sales-analytics-section h2 {
+    font-size: 24px;
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  .sales-analytics-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .analytics-card {
+    flex: 1 1 calc(30% - 20px); /* Adjust width for 3 items per row with gaps */
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .analytics-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .analytics-card p {
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+  
+  @media (max-width: 768px) {
+    .analytics-card {
+      flex: 1 1 100%; /* Cards will take full width on smaller screens */
+    }
+  }
+  

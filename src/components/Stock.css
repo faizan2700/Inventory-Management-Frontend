@@ -1,0 +1,46 @@
+.stock {
+    padding: 20px;
+  }
+  
+  .stock-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .stock-list th,
+  .stock-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .stock-list th {
+    background-color: #f4f6f8;
+  }
+  
+  .stock-list button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .stock-list button:first-child {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .user-list button:first-child:hover {
+    background-color: #e67e22;
+  }
+  
+  .user-list button:last-child {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .user-list button:last-child:hover {
+    background-color: #c0392b;
+  }
+  

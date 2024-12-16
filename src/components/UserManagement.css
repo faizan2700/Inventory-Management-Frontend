@@ -1,0 +1,72 @@
+.user-management {
+    padding: 20px;
+  }
+  
+  .user-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .user-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .user-form button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .user-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  .user-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-list th,
+  .user-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .user-list th {
+    background-color: #f4f6f8;
+  }
+  
+  .user-list button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-list button:first-child {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .user-list button:first-child:hover {
+    background-color: #e67e22;
+  }
+  
+  .user-list button:last-child {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .user-list button:last-child:hover {
+    background-color: #c0392b;
+  }
+  

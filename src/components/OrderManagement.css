@@ -1,0 +1,79 @@
+.order-management {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-management h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .order-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .order-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .order-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .order-list {
+    margin-top: 20px;
+  }
+  
+  .order-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-list th,
+  .order-list td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .order-list th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .order-list td button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-list td button:hover {
+    background-color: #e0a800;
+  }
+  
+  .order-list td button:nth-child(2) {
+    background-color: #dc3545;
+  }
+  
+  .order-list td button:nth-child(2):hover {
+    background-color: #c82333;
+  }
+  
